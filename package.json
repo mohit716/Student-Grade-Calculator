@@ -1,0 +1,25 @@
+{
+  "name": "student-grade-recorder",
+  "version": "1.0.0",
+  "description": "A manual repository which focuses to be built using more of online tutorials, api-docs rather than ai (its still used but minimal).",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohit716/Student-Grade-Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mohit716/Student-Grade-Calculator/issues"
+  },
+  "homepage": "https://github.com/mohit716/Student-Grade-Calculator#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1"
+  }
+}
