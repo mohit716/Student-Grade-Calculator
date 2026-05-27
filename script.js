@@ -19,6 +19,13 @@ app.post("/submit", (req, res) => {
       });
 });
 
+app.get("/grades", (req, res) => {
+    fs.readFile("grades.csv", "utf8", (err, data) => {
+      if (err) return res.send("No grades yet.");
+      res.send(`${data}`);
+    });
+  });
+
 app.listen(3000, () => {
     console.log("Server running on port 3000");
   });
